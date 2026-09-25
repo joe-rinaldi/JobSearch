@@ -1,12 +1,24 @@
 package JPMC;
 import java.util.*;
 
+/*
+@TODO clean up and make your own
+ */
+/**
+ * Given an array of strings, return the string that occurs most frequently.
+ * If there is a tie, return the lexicographically smallest string.
+ *
+ * Example:
+ * Input: ["BUY","SELL","BUY","HOLD","SELL","BUY"]
+ * Output: "BUY"
+ */
 public class MostFrequentTransactionPattern {
     public static String mostFrequent(String[] arr) {
         Map<String, Integer> freq = new HashMap<>();
 
         for (String s : arr) {
-            freq.put(s, freq.getOrDefault(s, 0) + 1);
+            //freq.put(s, freq.getOrDefault(s, 0) + 1);
+            freq.merge(s, 1, Integer::sum);
         }
 
         String best = "";

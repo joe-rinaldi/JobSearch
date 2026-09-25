@@ -2,7 +2,14 @@ package JPMC;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
-
+/**
+ * Given a list of tasks with start and end times, determine the minimum number of cores required to run all tasks without overlap.
+ * Each task is represented as an interval [start, end].
+ *
+ * Example:
+ * Input: [[0, 30], [5, 10], [15, 20]]
+ * Output: 2
+ */
 public class MinimumCores {
 
     public static int minCoresRequired(int[][] intervals) {

@@ -46,6 +46,11 @@ public class BigONotationExamples {
 
 
     public static void main(String[] args) {
+        int x = 10;
+        //System.out.println(x++ + ++x);
+        System.out.println(x++);
+        System.out.println(++x);
+
         int[] arr = {1, 2, 3, 4, 5};
 
         System.out.println("O(1) Example:");
