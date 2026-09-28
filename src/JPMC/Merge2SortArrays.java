@@ -1,4 +1,7 @@
 package JPMC;
+
+import java.util.Arrays;
+
 /*
 @TODO try your own approach
  */
@@ -32,10 +35,22 @@ public class Merge2SortArrays {
         return result;
     }
 
+    public static int[] merge2(int[] a, int[] b) {
+        java.util.List<Integer> list = new java.util.ArrayList<>();
+        for (int i : a) {
+            list.add(i);
+        }
+        for (int i : b) {
+            list.add(i);
+        }
+        java.util.Collections.sort(list);
+        return list.stream().mapToInt(Integer::intValue).toArray();
+    }
+
     public static void main(String[] args) {
         int[] a = {1, 3, 5, 7};
         int[] b = {2, 4, 6, 8};
-        int[] merged = merge(a, b);
+        int[] merged = merge2(a, b);
         System.out.println("a = " + java.util.Arrays.toString(a));
         System.out.println("b =" + java.util.Arrays.toString(b));
         System.out.println("Merged array = " + java.util.Arrays.toString(merged));
