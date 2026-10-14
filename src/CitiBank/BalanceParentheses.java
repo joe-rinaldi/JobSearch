@@ -1,5 +1,18 @@
 package CitiBank;
+/*
 
+COMMENT BalanceParentheses
+COMMENT     int left = 0; int right = input.length() - 1;
+COMMENT     while (left <= right) {
+COMMENT         if (input.charAt(left) == '(' && input.charAt(right) == ')') {//ok}
+COMMENT         else if (input.charAt(left) == '[' && input.charAt(right) == ']') {//ok}
+COMMENT         else if (input.charAt(left) == '{' && input.charAt(right) == '}') {//ok}
+COMMENT         else return false;
+COMMENT     left++;right--;
+COMMENT }
+COMMENT return true;
+
+ */
 import java.util.Stack;
 
 public class BalanceParentheses {

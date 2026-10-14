@@ -1,5 +1,16 @@
 package CitiBank;
+/*
+COMMENT MaxWindowSum
+COMMENT     long windowSum = 0;
+COMMENT     for (int i = 0; i < K; i++) {windowSum += A[i];}
+COMMENT     long maxSum = windowSum;
+COMMENT     for (int i = K; i < A.length; i++) {
+COMMENT         windowSum += A[i]; windowSum -= A[i - K];
+COMMENT         maxSum = Math.max(maxSum, windowSum);
+COMMENT     }
+COMMENT     return maxSum;
 
+ */
 
 public class MaxWindowSum {
 

@@ -1,5 +1,16 @@
 package CitiBank;
 
+/*
+COMMENT TwoSums
+COMMENT     Map<Integer, Integer> map = new HashMap<>();
+COMMENT     for (int i = 0; i < nums.length; i++) {
+COMMENT         int complement = target - nums[i];
+COMMENT         if (map.containsKey(complement)) {return new int[]{map.get(complement), i};}
+COMMENT         map.put(nums[i], i);
+COMMENT     }
+COMMENT     return new int[]{};
+
+ */
 import java.util.HashMap;
 import java.util.Map;
 

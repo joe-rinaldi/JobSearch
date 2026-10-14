@@ -5,6 +5,17 @@ import java.util.Arrays;
 /*
 @TODO review solution
 
+COMMENT  PermutationCheck
+COMMENT     int n = A.length;
+COMMENT     boolean[] seen = new boolean[n + 1];
+COMMENT     for (int v : A) {
+COMMENT         if (v < 1 || v > n) return 0;
+COMMENT         if (seen[v]) return 0;
+COMMENT         seen[v] = true;
+COMMENT     }
+COMMENT     return 1;
+
+
 📌 Question
 Check whether array A of length N is a permutation of numbers 1..N.
 

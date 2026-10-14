@@ -2,6 +2,15 @@ package CitiBank;
 
 /*
 TODO review solution2
+COMMENT  MaxStockProfit
+COMMENT        if (prices.length < 2) {return 0;}
+COMMENT        int minPrice = prices[0];int maxProfit = 0;
+COMMENT        for (int i = 1; i < prices.length; i++) {
+COMMENT            int profit = prices[i] - minPrice;
+COMMENT            if (profit > maxProfit) {maxProfit = profit;}
+COMMENT            if (prices[i] < minPrice) {minPrice = prices[i];}
+COMMENT        }
+COMMENT        return maxProfit;
  */
 
 public class MaxStockProfit {

@@ -1,5 +1,21 @@
 package CitiBank;
 
+/*
+COMMENT MergeIntervals
+COMMENT     int[][] sorted = new int[intervals.length][];
+COMMENT     for (int i = 0; i < intervals.length; i++) {sorted[i] = intervals[i].clone();}
+COMMENT     Arrays.sort(sorted,(a, b) -> Integer.compare(a[0], b[0]));
+COMMENT     List<int[]> merged = new ArrayList<>();
+COMMENT     int[] current = sorted[0];
+COMMENT     for (int i = 1; i < sorted.length; i++) {
+COMMENT         int[] next = sorted[i];
+COMMENT         if (next[0] <= current[1]) {current[1] = Math.max(current[1], next[1]);}
+COMMENT         else {merged.add(current);current = next;}
+COMMENT     }
+COMMENT     merged.add(current);
+COMMENT     return merged.toArray(new int[merged.size()][]);
+
+ */
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

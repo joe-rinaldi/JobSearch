@@ -1,5 +1,19 @@
 package CitiBank;
+/*
 
+COMMENT EquilibriumIndex
+COMMENT        long totalSum = 0;
+COMMENT        for(int value : A)
+COMMENT            totalSum += value;
+COMMENT        long leftSum = 0;
+COMMENT        for(int i=0;i<A.length;i++) {
+COMMENT            totalSum -= A[i];
+COMMENT            if(leftSum == totalSum) return i;
+COMMENT            leftSum += A[i];
+COMMENT        }
+COMMENT        return -1;
+
+*/
 public class EquilibriumIndex {
 
     public static int solution(int[] A) {

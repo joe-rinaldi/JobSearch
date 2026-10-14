@@ -1,5 +1,17 @@
 package CitiBank;
+/*
+COMMENT BinarySearch
+COMMENT        int left = 0;
+COMMENT        int right = A.length - 1;
+COMMENT        while (left <= right) {
+COMMENT            int mid = left + (right - left) / 2;
+COMMENT            if (A[mid] == target) {return mid; }
+COMMENT            if (A[mid] < target) {left = mid + 1; }
+COMMENT            else {right = mid - 1;}
+COMMENT        }
+COMMENT        return -1
 
+ */
 
 public class BinarySearch {
 

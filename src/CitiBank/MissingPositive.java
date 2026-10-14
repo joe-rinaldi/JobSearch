@@ -1,6 +1,15 @@
 package CitiBank;
 
+/*
+COMMENT MissingPositive
+COMMENT     Arrays.sort(A);
+COMMENT     int expected = 1;
+COMMENT     for (int num : A) {
+COMMENT         if (num == expected) {expected++;}
+COMMENT     }
+COMMENT     return expected;
 
+ */
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;

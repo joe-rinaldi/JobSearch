@@ -2,6 +2,12 @@ package CitiBank;
 
 /*
 TODO review code
+
+COMMENT OddOccurrencesInArray
+COMMENT     int x = 0;
+COMMENT     for (int v : A) x ^= v;
+COMMENT     return x;
+
  */
 import java.util.Arrays;
 

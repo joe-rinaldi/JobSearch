@@ -13,6 +13,14 @@ Use boolean array or set.
 Track how many unique positions are covered.
 Once count == X, return index.
 
+COMMENT FrogRiverOne
+COMMENT        HashSet<Integer> positions = new HashSet<>();
+COMMENT        for (int i = 0; i < A.length; i++) {
+COMMENT            positions.add(A[i]);
+COMMENT            if (positions.size() == X) return i;
+COMMENT        }
+COMMENT        return -1;
+
  */
 import java.util.HashSet;
 

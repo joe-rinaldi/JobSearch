@@ -4,6 +4,21 @@ package CitiBank;
 /*
 TODO don't understand algorithm solution
 
+COMMENT BinaryGap
+COMMENT        String binary = Integer.toBinaryString(N);
+COMMENT        int maxGap = 0;
+COMMENT        int currentGap = 0;
+COMMENT        for (char ch : binary.toCharArray()) {
+COMMENT            if (ch == '1') {
+COMMENT                maxGap = Math.max(maxGap, currentGap);
+COMMENT                currentGap = 0;
+COMMENT            } else {
+COMMENT                currentGap++;
+COMMENT            }
+COMMENT        }
+COMMENT        return maxGap;
+
+
 
 ✅ Codility Java Assessment: Detailed Questions + Answers + Test Harness (Main Classes)
 Below is a set of typical Codility-style tasks with:

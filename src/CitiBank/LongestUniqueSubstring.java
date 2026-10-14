@@ -2,6 +2,17 @@ package CitiBank;
 
 /*
 TODO dont understand solution
+
+COMMENT LongestUniqueSubstring
+COMMENT        int left = 0; int maxLength = 0;
+COMMENT        for (int right = 0; right < s.length(); right++) {
+COMMENT            char c = s.charAt(right);
+COMMENT            if (lastSeen.containsKey(c)) {left = Math.max(left, lastSeen.get(c) + 1);}
+COMMENT            lastSeen.put(c, right);
+COMMENT            maxLength = Math.max(maxLength, right - left + 1);
+COMMENT        }
+COMMENT        return maxLength;
+
  */
 
 import java.lang.classfile.instruction.CharacterRange;

@@ -1,5 +1,14 @@
 package CitiBank;
 
+/*
+COMMENT CountDistinct
+COMMENT        if (intervals.length == 0) return 0;
+COMMENT        Set<Integer> set = new HashSet<>();
+COMMENT        for (int i : intervals)
+COMMENT            set.add(i);
+COMMENT        return set.size();
+
+ */
 import java.util.HashSet;
 import java.util.Set;
 

@@ -2,6 +2,16 @@ package CitiBank;
 /*
 TODO review code
 
+COMMENT CyclicRotation
+COMMENT            if (A == null || A.length == 0 || K % A.length == 0) return A;
+COMMENT            int n = A.length;
+COMMENT            K = K % n; // Avoid redundant rotations
+COMMENT            int[] rotated = new int[n];
+COMMENT            for (int i = 0; i < n; i++) {
+COMMENT                int newIndex = (i + K) % n;
+COMMENT                rotated[newIndex] = A[i];}
+COMMENT            return rotated;
+
 Question
 Given an array A of N integers and an integer K, rotate the array to the right by K steps.
 

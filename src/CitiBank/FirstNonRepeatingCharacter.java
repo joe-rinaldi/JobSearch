@@ -1,6 +1,16 @@
 package CitiBank;
 
+/*
+COMMENT FirstNonRepeatingCharacter
+COMMENT     Character[] chars = new Character[26];
+COMMENT     Map<Character, Integer> map = new HashMap<Character, Integer>();
+COMMENT     for (char c : str.toCharArray()) { map.put(c, map.getOrDefault(c, 0) + 1);}
+COMMENT     for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+COMMENT         if (entry.getValue() == 1) { return entry.getKey();}
+COMMENT      }
+COMMENT     return null;
 
+ */
 import java.util.HashMap;
 import java.util.Map;
 
