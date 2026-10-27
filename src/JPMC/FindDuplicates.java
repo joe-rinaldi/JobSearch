@@ -7,17 +7,18 @@ import java.util.Set;
  */
 public class FindDuplicates {
 
-    public static void main(String[] args) {
-        String input = "programming";
-        System.out.println("Input string: " + input);
-        System.out.println("Duplicate characters: ");
-        findDuplicates(input);
+    //write another findDuplicates method that takes an array of integers and returns a set of duplicate numbers
+    public static Set<Integer> findDuplicates2(int[] numbers) {
+        Set<Integer> seen = new HashSet<>();
+        Set<Integer> duplicates = new HashSet<>();
 
-        // Test with an array of integers
-        int[] numbers = {1, 2, 3, 2, 4, 5, 1, 6};
-        System.out.println("Input array: " +java.util.Arrays.toString(numbers));
-        Set<Integer> duplicates = findDuplicates(numbers);
-        System.out.println("Duplicate numbers: " + duplicates);
+        for (int number : numbers) {
+            if (!seen.add(number)) {
+                duplicates.add(number);
+            }
+        }
+
+        return duplicates;
     }
 
     public static void findDuplicates(String str) {
@@ -46,4 +47,20 @@ public class FindDuplicates {
 
         return duplicates;
     }
+
+
+    public static void main(String[] args) {
+        String input = "programming";
+        System.out.println("Input string: " + input);
+        System.out.println("Duplicate characters: ");
+        findDuplicates(input);
+
+        // Test with an array of integers
+        int[] numbers = {1, 2, 3, 2, 4, 5, 1, 6};
+        System.out.println("Input array: " +java.util.Arrays.toString(numbers));
+        Set<Integer> duplicates = findDuplicates(numbers);
+
+    }
+
+
 }

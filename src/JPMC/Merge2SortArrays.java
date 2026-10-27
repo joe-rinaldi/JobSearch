@@ -1,7 +1,5 @@
 package JPMC;
 
-import java.util.Arrays;
-
 /*
 @TODO try your own approach
  */

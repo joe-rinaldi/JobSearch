@@ -4,6 +4,8 @@ import java.util.Stack;
 
 public class BalanceParentheses {
 
+
+
     public static boolean isBalanced(String input) {
 
         Stack<Character> stack = new Stack<>();
