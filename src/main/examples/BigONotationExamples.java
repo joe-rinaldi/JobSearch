@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 
 public class BigONotationExamples {
 

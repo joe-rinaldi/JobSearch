@@ -1,6 +1,6 @@
-package test.examples;
+package examples;
 
-import main.examples.AgentUtils;
+import examples.AgentUtils;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -54,4 +54,3 @@ public class AgentUtilsBinarySearchTest {
         assertEquals(-1, AgentUtils.binarySearch(list, null)); // null target -> -1 per implementation
     }
 }
-

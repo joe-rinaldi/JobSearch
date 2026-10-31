@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -20,4 +20,3 @@ public class ReverseLinkedListExample {
         System.out.println("Reversed LinkedList: " + list);
     }
 }
-

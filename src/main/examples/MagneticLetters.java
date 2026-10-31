@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 
 /*
 https://www.bing.com/videos/riverview/relatedvideo?q=Glider+online+test&mid=7E6F3E11A3803B887DF97E6F3E11A3803B887DF9&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCLLf3BKaLS2Jfcyl4U5RmKA&FORM=VIRE

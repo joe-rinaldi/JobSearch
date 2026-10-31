@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 // File: ShapeExample.java
 import java.util.Scanner;
 
@@ -97,4 +97,3 @@ public class FactoryPattern {
         }
     }
 }
-

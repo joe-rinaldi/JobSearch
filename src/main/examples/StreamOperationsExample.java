@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 /*
 https://www.bing.com/search?q=stream%20api%20examples&FORM=ARPSEC&PC=ARPL&PTAG=30149
  */

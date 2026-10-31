@@ -1,4 +1,4 @@
-package test.examples;
+package examples;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import main.examples.AgentUtils;
+import examples.AgentUtils;
 
 public class AgentUtilsTest {
 

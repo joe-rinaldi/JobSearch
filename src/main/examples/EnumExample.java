@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 // EnumExample.java
 public class EnumExample {
 

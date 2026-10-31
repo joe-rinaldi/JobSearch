@@ -1,6 +1,6 @@
-package test.examples;
+package examples;
 
-import main.examples.Test2;
+import examples.Test2;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -67,4 +67,3 @@ public class Test2Test {
         Assertions.assertEquals(Integer.valueOf(Integer.MIN_VALUE), t.findMaxIntegerInListUsingForLoop(empty));
     }
 }
-

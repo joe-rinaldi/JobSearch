@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 
 // Complete Java program to reverse a linked list
 public class ReverseLinkedList {

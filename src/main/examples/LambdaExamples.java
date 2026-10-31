@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 
 /*
 https://www.bing.com/search?q=lamda%20examples%20in%20java&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=lamda%20examples%20in%20ja&sc=12-20&sk=&cvid=1089BD6B7C6A4C168D8B7C865EA78E13

@@ -2,7 +2,7 @@ package Leidos;
 
 public class RecentPairSumMain {
     public static void main(String[] args) {
-        RecentPairSum pairSum = new RecentPairSum(3);
+        Leidos.RecentPairSum pairSum = new Leidos.RecentPairSum(3);
 
         pairSum.add(1);
         pairSum.add(5);

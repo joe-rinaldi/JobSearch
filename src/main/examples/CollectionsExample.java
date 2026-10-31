@@ -1,4 +1,4 @@
-package main.examples;
+package examples;
 /*
 https://www.bing.com/search?q=collections%20examples%20in%20java&qs=n&form=QBRE&sp=-1&lq=0&pq=collections%20examples%20in%20java&sc=12-28&sk=&cvid=A765A6D922AF4ADA97C39CC2774EEB52
  */
